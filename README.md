@@ -1,6 +1,11 @@
 # Captures of the app 
 ## Home APP
-![HOME APP IMAGE](https://github.com/Spaider54/appgoals/blob/main/src/Images/cpt1.png?raw=true)
+![HOME APP IMAGE](https://github.com/Spaider54/appgoals/tree/main/src/Images/cpt1.png)
+![HOME APP IMAGE](https://github.com/Spaider54/appgoals/main/src/Images/cpt1.png)
+![HOME APP IMAGE](https://github.com/Spaider54/appgoals/tree/main/src/Images/cpt1.png)
+![HOME APP IMAGE](https://github.com/Spaider54/appgoals/tree/main/src/Images/cpt1.png)
+![HOME APP IMAGE](https://github.com/Spaider54/appgoals/tree/main/src/Images/cpt1.png)
+
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ## After Removing Goals
 ![After Removing Goals](https://github.com/Spaider54/appgoals/main/src/Images/cpt2.png)
