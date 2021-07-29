@@ -1,3 +1,15 @@
+# Captures of the app 
+## Home APP
+![HOME APP IMAGE](/src/Images/cpt1.png)
+## After Removing Goals
+![After Removing Goals](/src/Images/cpt2.png)
+## adding a New Goal
+![Adding a New Goal](/src/Images/cpt3.png)
+## Showing the New Goal
+![Showing the New Goal](/src/Images/cpt4.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
