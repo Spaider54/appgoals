@@ -1,0 +1,14 @@
+.new-goal{
+  margin:2rem;
+  text-align: center;
+
+}
+.new-goal >input,button{
+  background-color: rgba(221, 212, 212, 0.836);
+  padding: 10px;
+}
+.new-goal input{
+  width: 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
