@@ -1,12 +1,12 @@
 # Captures of the app 
 ## Home APP
-![HOME APP IMAGE](/src/Images/cpt1.png)
+![HOME APP IMAGE](appgoals/src/Images/cpt1.png)
 ## After Removing Goals
-![After Removing Goals](/src/Images/cpt2.png)
+![After Removing Goals](appgoals/src/Images/cpt2.png)
 ## adding a New Goal
-![Adding a New Goal](/src/Images/cpt3.png)
+![Adding a New Goal](appgoals/src/Images/cpt3.png)
 ## Showing the New Goal
-![Showing the New Goal](/src/Images/cpt4.png)
+![Showing the New Goal](appgoals/src/Images/cpt4.png)
 
 
 
