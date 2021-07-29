@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import './NewGols.css';
+import './NewGoals.css';
 
-const NewGols = ({ onAddGoal }) => {
+const NewGoals = ({ onAddGoal }) => {
   
   const [entredText, setEntredText] = useState('');
   const addGoalHandlder = (event) => {
@@ -33,4 +33,4 @@ const NewGols = ({ onAddGoal }) => {
   );
 };
 
-export default NewGols;
+export default NewGoals;

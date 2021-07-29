@@ -1,20 +1,20 @@
 
-import './Gols.css';
+import './Goals.css';
 
-const Gols = ({ courseGols, onRemoveGoal }) => {
-  const removeGoalHandler = (idOfGole) => {
+const Goals = ({ courseGoals, onRemoveGoal }) => {
+  const removeGoalHandler = (idOfGoale) => {
     // send the id of item to remove it
-    onRemoveGoal(idOfGole);
-    console.log(idOfGole);
+    onRemoveGoal(idOfGoale);
+    console.log(idOfGoale);
   };
 
 
   return (
     <div>
       <ul>
-        {courseGols.length === 0 ?
+        {courseGoals.length === 0 ?
           <p> No Goal Set Here , add One (*-*) </p> :
-        courseGols.map((i) => {
+        courseGoals.map((i) => {
           return (
             <li key={i.id}>
               <div>
@@ -34,4 +34,4 @@ const Gols = ({ courseGols, onRemoveGoal }) => {
   );
 };
 
-export default Gols;
+export default Goals;

@@ -6,8 +6,8 @@ import React, { useState } from 'react';
 
 import Head from "./Component/Head/Head";
 import Footer from "./Component/Footer/Footer";
-import Gols from "./Component/Gols/Gols";
-import NewGols from "./Component/Gols/NewGols";
+import Goals from "./Component/Goals/Goals";
+import NewGoals from "./Component/Goals/NewGoals";
 
 
 // ** Import Other Ressource  */
@@ -15,34 +15,34 @@ import NewGols from "./Component/Gols/NewGols";
 function App() {
 
 
-  const [courseGols, setCourseGols] = useState([
+  const [courseGoals, setCourseGoals] = useState([
     {
-      id: "g1",
-      title: "Understande JSX In ReactJS",
+      id: 'g1',
+      title: "Understande JSX",
     },
     {
-      id: "g2",
-      title: "Understande Syling In ReactJS",
+      id:'g2',
+      title: "Understande Components Functional & Class",
     },
     {
-      id: "g3",
-      title: "Understande How to Connact React to NodeJS",
+      id: 'g3',
+      title: "Understande props & state & cond rendering",
     },
   ]);
 
   const addNewGoalHandler = (newGoal) => {
-    setCourseGols(prevCourseGols => prevCourseGols.concat(newGoal));
+    setCourseGoals(prevCourseGoals => prevCourseGoals.concat(newGoal));
   };
   const afterRemoveHandler = (id) => {
-    setCourseGols(courseGols.filter((i) => i.id !== id));
+    setCourseGoals(courseGoals.filter((i) => i.id !== id));
   }
 
   return (
     <div className="App">
       <Head/>
-      <h2>Gols of My Course MERN Stack</h2>
-      <NewGols onAddGoal={addNewGoalHandler} />
-      <Gols courseGols={courseGols} onRemoveGoal={afterRemoveHandler} />
+      <h2>Goals of My Course</h2>
+      <NewGoals onAddGoal={addNewGoalHandler} />
+      <Goals courseGoals={courseGoals} onRemoveGoal={afterRemoveHandler} />
       <Footer />
     </div>
   );
